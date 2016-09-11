@@ -23,4 +23,6 @@ public class PatientService {
     public void Add(Patient patient) {
         patients.add(patient);
     }
+
+
 }
