@@ -11,6 +11,7 @@ public class App
         List<Patient> patients = patientService.getAll();
 
         for (Patient patient : patients) {
+            System.out.println("Patient");
             System.out.println(String.format("%1$s %2$s", patient.getFirstName(), patient.getLastName()));
         }
     }
