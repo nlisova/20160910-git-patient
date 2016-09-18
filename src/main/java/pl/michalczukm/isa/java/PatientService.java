@@ -9,7 +9,7 @@ public class PatientService {
     public PatientService() {
         patients = new ArrayList<>();
 
-        patients.add(new Patient("Jan", "Kowalski"));
+        patients.add(new Patient("Andrzej", "Kowalski"));
         patients.add(new Patient("Pawel", "Nowak"));
         patients.add(new Patient("Piotr", "Szulc"));
         patients.add(new Patient("Anna", "Nowak"));
