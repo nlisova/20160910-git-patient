@@ -9,11 +9,11 @@ public class PatientService {
     public PatientService() {
         patientModels = new ArrayList<>();
 
-        patientModels.add(new PatientModel("Andrzej", "Kowalski", 15));
-        patientModels.add(new PatientModel("Pawel", "Nowak",16));
-        patientModels.add(new PatientModel("Piotr", "Szulc",16));
-        patientModels.add(new PatientModel("Anna", "Nowak",78));
-        patientModels.add(new PatientModel("Anna", "kanikowska",14));
+        patientModels.add(new PatientModel("Andrzej", "Kowalski"));
+        patientModels.add(new PatientModel("Pawel", "Nowak"));
+        patientModels.add(new PatientModel("Piotr", "Szulc"));
+        patientModels.add(new PatientModel("Anna", "Nowak"));
+        patientModels.add(new PatientModel("Anna", "kanikowska"));
     }
 
     public List<PatientModel> getAll() {
