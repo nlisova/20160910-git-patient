@@ -12,7 +12,13 @@ public class PatientService {
         patientModels.add(new PatientModel("Andrzej", "Kowalski",15));
         patientModels.add(new PatientModel("Pawel", "Nowak",11));
         patientModels.add(new PatientModel("Piotr", "Szulc",15));
+        patientModels.add(new PatientModel("Piotr", "Szulc",15));
+        patientModels.add(new PatientModel("Piotr", "Szulc",15));
+        patientModels.add(new PatientModel("Piotr", "Szulc",15));
         patientModels.add(new PatientModel("Anna", "Nowak",78));
+        patientModels.add(new PatientModel("Anna", "kanikowska",14));
+        patientModels.add(new PatientModel("Anna", "kanikowska",14));
+        patientModels.add(new PatientModel("Anna", "kanikowska",14));
         patientModels.add(new PatientModel("Anna", "kanikowska",14));
     }
 
