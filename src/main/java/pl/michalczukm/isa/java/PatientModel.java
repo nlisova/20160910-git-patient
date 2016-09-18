@@ -6,7 +6,8 @@ public class PatientModel {
     private int age;
 
 
-    public PatientModel(String firstName, String lastName) {
+    public PatientModel(String firstName, String lastName, int age) {
+        this.age = age;
         this.firstName = firstName;
         this.lastName = lastName;
     }
