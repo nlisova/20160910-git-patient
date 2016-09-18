@@ -5,6 +5,6 @@ package pl.michalczukm.isa.java;
  */
 public class DoctorService {
     public DoctorService(){
-
+        new Doctor();
     }
 }
