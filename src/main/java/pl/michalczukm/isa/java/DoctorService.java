@@ -5,6 +5,8 @@ package pl.michalczukm.isa.java;
  */
 public class DoctorService {
     public DoctorService(){
-        new Doctor();
+        Doctor doc1 = new Doctor();
+        Doctor doc2 = new Doctor();
+
     }
 }
