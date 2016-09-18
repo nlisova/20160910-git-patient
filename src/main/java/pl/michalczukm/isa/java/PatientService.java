@@ -4,24 +4,24 @@ package pl.michalczukm.isa.java;
         import java.util.List;
 
 public class PatientService {
-    private final List<Patient> patients;
+    private final List<PatientModel> patientModels;
 
     public PatientService() {
-        patients = new ArrayList<>();
+        patientModels = new ArrayList<>();
 
-        patients.add(new Patient("Andrzej", "Kowalski"));
-        patients.add(new Patient("Pawel", "Nowak"));
-        patients.add(new Patient("Piotr", "Szulc"));
-        patients.add(new Patient("Anna", "Nowak"));
-        patients.add(new Patient("Anna", "kanikowska"));
+        patientModels.add(new PatientModel("Andrzej", "Kowalski"));
+        patientModels.add(new PatientModel("Pawel", "Nowak"));
+        patientModels.add(new PatientModel("Piotr", "Szulc"));
+        patientModels.add(new PatientModel("Anna", "Nowak"));
+        patientModels.add(new PatientModel("Anna", "kanikowska"));
     }
 
-    public List<Patient> getAll() {
-        return patients;
+    public List<PatientModel> getAll() {
+        return patientModels;
     }
 
-    public void Add(Patient patient) {
-        patients.add(patient);
+    public void Add(PatientModel patientModel) {
+        patientModels.add(patientModel);
     }
 
 

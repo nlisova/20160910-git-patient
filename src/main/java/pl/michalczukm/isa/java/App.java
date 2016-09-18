@@ -8,11 +8,11 @@ public class App
     public static void main( String[] args ) {
 
         PatientService patientService = new PatientService();
-        List<Patient> patients = patientService.getAll();
+        List<PatientModel> patientModels = patientService.getAll();
 
-        for (Patient patient : patients) {
-            System.out.println("Patient");
-            System.out.println(String.format("%1$s %2$s", patient.getFirstName(), patient.getLastName()) + " is sick");
+        for (PatientModel patientModel : patientModels) {
+            System.out.println("PatientModel");
+            System.out.println(String.format("%1$s %2$s", patientModel.getFirstName(), patientModel.getLastName()) + " is sick");
         }
     }
 }
